@@ -1,23 +1,14 @@
+/*StyleSheet for Marble Page
+By Jacob Williams*/
+
+/***BODY***/
+
 body {
   background:skyblue;
   max-width:960px;
 }
 
-table, th, td {
-  border:1px solid black;
-  padding:5px;
-  margin:10px;
-}
-
-footer{
-  border:1px dotted;
-  padding:5px;
-  display:block;
-  margin-right:auto;
-  margin-left:auto;
-  width:50%;
-  background-image: url("marbleBG.jpg");
-}
+/***HEADER, MAIN, FOOTER***/
 
 header{
   background-image: url("marbleBG.jpg");
@@ -37,6 +28,24 @@ header h1 {
 
 main {
   margin-top:90px;
+}
+
+footer{
+  border:1px dotted;
+  padding:5px;
+  display:block;
+  margin-right:auto;
+  margin-left:auto;
+  width:50%;
+  background-image: url("marbleBG.jpg");
+}
+
+/***BODY ELEMENTS***/
+
+table, th, td {
+  border:1px solid black;
+  padding:5px;
+  margin:10px;
 }
 
 p, nav a, td {
@@ -66,6 +75,8 @@ a:visited {
   margin-right:auto;
 }
 
+/***RESPONSIVE DESIGN***/
+
 @media screen and (max-width: 480px) {
     body {
       font-size:70%;
@@ -84,8 +95,10 @@ a:visited {
     }
 }
 
+
+
 /*
-RELEASE 1
+REQS FOR RELEASE 1
 1 padding and border to one element
 2 margin added to at least one element
 3 at least one centered element (footer)
