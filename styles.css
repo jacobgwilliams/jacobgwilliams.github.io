@@ -66,6 +66,24 @@ a:visited {
   margin-right:auto;
 }
 
+@media screen and (max-width: 480px) {
+    body {
+      font-size:70%;
+    }
+    header {
+      height:60px;
+    }
+    main {
+      margin-top: 70px;
+    }
+    #featimage {
+      width:100%;
+    }
+    footer {
+      width:100%;
+    }
+}
+
 /*
 RELEASE 1
 1 padding and border to one element
