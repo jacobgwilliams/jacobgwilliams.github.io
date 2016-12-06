@@ -3,71 +3,82 @@
 <head>
   <title>Jacob Williams - Web Dev Guy - Comedy Guy</title>
   <link rel="stylesheet" type="text/css" href="newstyles.css">
+  <link href="https://fonts.googleapis.com/css?family=Crimson+Text|Roboto" rel="stylesheet">
 </head>
 <body>
   <header>
-    <h1>Hi, I'm Jacob!</h1>
+    <h1>Hi, I'm Jacob.</h1>
+    <img id="face" src="fullbodyguy.jpg" alt="my handsome mug" />
+    <nav class="phonenav">
+      Navigate:
+      <a href="#about">About</a> |
+      <a href="#projects">Projects</a> |
+      <a href="#etc">Etc.</a>
+    </nav>
   </header>
   <main>
     <section>
+      <a name="about" class="phonenav"></a>
       <h2>About me</h2>
       <p>I'm a web developer who laughs a lot. My journey in web development started when I was about 10 years old and sat in the computer lab at school after hours watching the older kids plunk out cheezy HTML sites dedicated to Pearl Jam.</p>
       <p>Since then I've delved deeper. I started exploring resources online to help me learn to code. Codecademy, TeamTreehouse, and others. In the summer of 2016 I enrolled at Dev Bootcamp in New York City, and completed the full-stack web developer immersion program there.</p>
       <p>Now I'd like to work with you!</p>
     </section>
-    <section class="description">
+    <section>
+      <a name="projects" class="phonenav"></a>
       <h2>Projects</h2>
       <ul>
         <li>
           <ul>
             <li>
-              <a href="https://github.com/dixonscottr/ontherails">On The Rails</a>
+              <a href="https://github.com/dixonscottr/ontherails"><h2>On The Rails</h2></a>
             </li>
             <li>
-              <p><strong>What it does:</strong> Tracks realtime updates of 1-6 trains on the MTA and displays them in a map updated in real time.</p>
-              <p><strong>Built with:</strong> Ruby, Rails, Javascript, Google Maps API, and MTA developers API.</p>
-              <p><strong>Also:</strong> Designed by a four person team using Agile Workflow. Deployed on Heroku! <a href="https://ontherails.herokuapp.com/">OnTheRails.herokuapp.com</a></p>
-            </li>
-          </ul>
-        </li>
-        <li>
-          <ul>
-            <li>
-              <a href="https://github.com/jacobgwilliams/ProjectCEPTION">ProjectCEPTION</a>
-            </li>
-            <li>
-              <p><strong>What it does:</strong> Designed for Teachers and Phase 3 students at Dev Bootcamp to pitch, vote on, select, rank, and organize final projects and teams.</p>
-              <p><strong>Built with:</strong> Ruby, Rails, Javascript, Materialize for Styling</p>
-              <p><strong>Also:</strong> Designed by a four person team using Agile Workflow. Deployed on Heroku! <a href="https://projectception.herokuapp.com/">ProjectCEPTION</a></p>
+              <p><span class='projectsection'>What it does:</span class='projectsection'> Tracks realtime updates of 1-6 trains on the MTA and displays them in a map updated in real time.</p>
+              <p><span class='projectsection'>Built with:</span class='projectsection'> Ruby, Rails, Javascript, Google Maps API, and MTA developers API.</p>
+              <p><span class='projectsection'>Also:</span class='projectsection'> Designed by a four person team using Agile Workflow. Deployed on Heroku! <a href="https://ontherails.herokuapp.com/">OnTheRails.herokuapp.com</a></p>
             </li>
           </ul>
         </li>
         <li>
           <ul>
             <li>
-              <a href="https://github.com/jacobgwilliams/Ur8-N-d1c710NaRy">ur8@n d1C710n@ry</a>
+              <a href="https://github.com/jacobgwilliams/ProjectCEPTION"><h2>ProjectCEPTION</h2></a>
             </li>
             <li>
-              <p><strong>What it does:</strong> A full CRUD app that allows users to look up words in Urban Dictionary, see them translated to l33t sp3@k, and save their favorites.</p>
-              <p><strong>Built with:</strong> Ruby, Sinatra, JavaScript, Urban Dictionary API, l337 sp#@kr API, custom CSS</p>
-              <p><strong>Also:</strong> <img src="https://upload.wikimedia.org/wikipedia/en/0/03/Aybabtu.png" alt='haxxored or whatever' /></p>
+              <p><span class='projectsection'>What it does:</span class='projectsection'> Designed for Teachers and Phase 3 students at Dev Bootcamp to pitch, vote on, select, rank, and organize final projects and teams.</p>
+              <p><span class='projectsection'>Built with:</span class='projectsection'> Ruby, Rails, Javascript, Materialize for Styling</p>
+              <p><span class='projectsection'>Also:</span class='projectsection'> Designed by a four person team using Agile Workflow. Deployed on Heroku! <a href="https://projectception.herokuapp.com/">ProjectCEPTION</a></p>
             </li>
           </ul>
         </li>
         <li>
           <ul>
             <li>
-              <a href="https://github.com/jacobgwilliams/restaurant-reviewer">My Lil' Restaurant Reviewer</a>
+              <a href="https://github.com/jacobgwilliams/Ur8-N-d1c710NaRy"><h2>ur8@n d1C710n@ry</h2></a>
             </li>
             <li>
-              <p><strong>What it does:</strong> Little <em>Yelp</em> clone. Users can sign up, submit restaurants, leave reviews, upvote/downvote, etc.</p>
-              <p><strong>Built with:</strong> Ruby, Sinatra, JavaScript</p>
+              <p><span class='projectsection'>What it does:</span class='projectsection'> A full CRUD app that allows users to look up words in Urban Dictionary, see them translated to l33t sp3@k, and save their favorites.</p>
+              <p><span class='projectsection'>Built with:</span class='projectsection'> Ruby, Sinatra, JavaScript, Urban Dictionary API, l337 sp#@kr API, custom CSS</p>
+              <p><span class='projectsection'>Also:</span class='projectsection'> <img src="https://upload.wikimedia.org/wikipedia/en/0/03/Aybabtu.png" alt='haxxored or whatever' /></p>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <ul>
+            <li>
+              <a href="https://github.com/jacobgwilliams/restaurant-reviewer"><h2>My Lil' Restaurant Reviewer</h2></a>
+            </li>
+            <li>
+              <p><span class='projectsection'>What it does:</span class='projectsection'> Little <em>Yelp</em> clone. Users can sign up, submit restaurants, leave reviews, upvote/downvote, etc.</p>
+              <p><span class='projectsection'>Built with:</span class='projectsection'> Ruby, Sinatra, JavaScript</p>
             </li>
           </ul>
         </li>
       </ul>
     </section>
     <section>
+      <a name="etc" class="phonenav"></a>
       <h2>More, you ask?</h2>
       <p>This isn't information pertinent to my coding abilities, but as for who I <em>am</em>, I am a graduate of the University of North Carolina at Chapel Hill with a BA in Drama and Communication Studies: Media Studies and Production.</p>
       <p>I moved to New York City in 2012 with creative freelancy ambitions. I've been an actor, writer, teacher, waiter, office assistant, office assistant manager, web designer, manager assistant office (wait... what?) and so on.</p>
