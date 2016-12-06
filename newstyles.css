@@ -33,6 +33,11 @@ a {
 .projectsection {
   color: red;
 }
+footer {
+  border-top-style: solid;
+  border-top-color: black;
+  border-top-width: 5px;
+}
 footer p {
   font-size: 100%;
 }
@@ -53,6 +58,13 @@ footer p {
     max-width: 350px;
     max-height: 350px;
     padding-left: 20px;
+}
+#social {
+  float: none;
+  padding-top: 10px;
+}
+#copy {
+  float: none;
 }
 
 /** DESKTOP VIEW **/
@@ -79,6 +91,7 @@ footer p {
     float: right;
   }
   footer {
+    border: none;
     position: fixed;
     bottom: 1%;
   }
