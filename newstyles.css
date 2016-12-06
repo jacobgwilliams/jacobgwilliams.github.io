@@ -41,15 +41,27 @@ footer p {
   display: block;
 }
 .phonenav a {
-  color: inherit;
+  color: #F38630;
   text-decoration: none;
 }
 .phonenav a:hover {
   color: #F38630;
 }
+#face {
+    height: auto;
+    width: auto;
+    max-width: 350px;
+    max-height: 350px;
+}
 
 /** DESKTOP VIEW **/
 @media only screen and (min-width: 892px) {
+  #face {
+      height: auto;
+      width: auto;
+      max-width: 650px;
+      max-height: 650px;
+  }
   body {
     max-width: 1000px;
     margin: 0 auto;
@@ -74,5 +86,9 @@ footer p {
   }
   .phonenav {
     display:none;
+  }
+  h1 {
+    margin-bottom:15px;
+    margin-top:15px;
   }
 }
