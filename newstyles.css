@@ -78,6 +78,25 @@ footer p {
 #unc {
   color: #7BAFD4;
 }
+.representation {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white; 
+  padding: 4px; 
+  border: solid;
+  width: 75%;
+}
+.representation p {
+  text-align: center;
+}
+.representation img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+
+}
 
 /** DESKTOP VIEW **/
 @media only screen and (min-width: 892px) {
