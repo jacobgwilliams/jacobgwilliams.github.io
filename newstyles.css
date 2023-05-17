@@ -2,12 +2,19 @@ body {
   width: 95%;
   display: block;
   font-family: 'Roboto', sans-serif;
-  background: #31a4ad; /* For browsers that do not support gradients */
-  background: -webkit-linear-gradient(#31a4ad, #3184ad); /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(#31a4ad, #3184ad); /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(#31a4ad, #3184ad); /* For Firefox 3.6 to 15 */
-  background: linear-gradient(#31a4ad, #3184ad); /* Standard syntax */
+  background: #F0EAD6; /* For browsers that do not support gradients */
+  /* Used the below for gradients, but keeping as a placeholder */
+  background: -webkit-linear-gradient(#F0EAD6, #F0EAD6); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#F0EAD6, #F0EAD6); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#F0EAD6, #F0EAD6); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#F0EAD6, #F0EAD6); /* Standard syntax */
   font-size:130%;
+}
+section{
+  background-color: #d6dcf0;
+  padding: 1em;
+  margin-top: 1em;
+  border-radius: 1em;
 }
 h1,h2,h3{
   font-family: 'Crimson Text', serif;
@@ -33,7 +40,10 @@ nav ul {
     padding: 10px 20px;
 }
 a {
-  color: #F38630;
+  color: #000;
+}
+a:hover {
+  color: #3165a3;
 }
 .projectsection {
   color: red;
@@ -52,14 +62,17 @@ footer p {
 }
 .phonenav {
   color: inherit;
+  background-color: #d6dcf0;
   display: block;
+  border-top-right-radius: 1em;
+  border-bottom-right-radius: 1em;
 }
 .phonenav a {
-  color: #d8daed;
+  color: #000;
   text-decoration: none;
 }
 .phonenav a:hover {
-  color: #F38630;
+  color: #3165a3;
 }
 #face {
     height: auto;
@@ -95,7 +108,12 @@ footer p {
   margin-left: auto;
   margin-right: auto;
   width: 50%;
-
+}
+.contactform {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
 }
 
 /** DESKTOP VIEW **/
