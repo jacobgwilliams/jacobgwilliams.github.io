@@ -66,6 +66,7 @@ footer p {
   display: block;
   border-top-right-radius: 1em;
   border-bottom-right-radius: 1em;
+  width: 75%;
 }
 .phonenav a {
   color: #000;
