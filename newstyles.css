@@ -28,6 +28,12 @@ h1 {
 ul {
   list-style-type: none;
 }
+.phonenav ul li {
+  margin-bottom: 3px;
+}
+ul li {
+  margin-bottom: 12px;
+}
 ul li ul {
     border-left: 5px solid #FA6900;
     background-color: #A7DBD8;
